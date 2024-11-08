@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42228E0B2CDEA71B007D99D9 /* CreateAIDrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42228E062CDEA71B007D99D9 /* CreateAIDrawingView.swift */; };
+		42228E0D2CDEA71B007D99D9 /* PreExistingDrawingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42228E092CDEA71B007D99D9 /* PreExistingDrawingsView.swift */; };
+		42228E0E2CDEA71B007D99D9 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42228E072CDEA71B007D99D9 /* Home.swift */; };
+		42228E0F2CDEA71B007D99D9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42228E042CDEA71B007D99D9 /* ContentView.swift */; };
+		42228E102CDEA71B007D99D9 /* MyDrawingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42228E082CDEA71B007D99D9 /* MyDrawingsView.swift */; };
 		426A6F042CDD2601007253AD /* LetsDrawApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426A6F032CDD2601007253AD /* LetsDrawApp.swift */; };
-		426A6F062CDD2601007253AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426A6F052CDD2601007253AD /* ContentView.swift */; };
-		426A6F082CDD2601007253AD /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426A6F072CDD2601007253AD /* Item.swift */; };
 		426A6F0A2CDD2603007253AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 426A6F092CDD2603007253AD /* Assets.xcassets */; };
 		426A6F0D2CDD2603007253AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 426A6F0C2CDD2603007253AD /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		42228E042CDEA71B007D99D9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		42228E062CDEA71B007D99D9 /* CreateAIDrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAIDrawingView.swift; sourceTree = "<group>"; };
+		42228E072CDEA71B007D99D9 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		42228E082CDEA71B007D99D9 /* MyDrawingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDrawingsView.swift; sourceTree = "<group>"; };
+		42228E092CDEA71B007D99D9 /* PreExistingDrawingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreExistingDrawingsView.swift; sourceTree = "<group>"; };
 		426A6F002CDD2601007253AD /* LetsDraw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetsDraw.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		426A6F032CDD2601007253AD /* LetsDrawApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetsDrawApp.swift; sourceTree = "<group>"; };
-		426A6F052CDD2601007253AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		426A6F072CDD2601007253AD /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		426A6F092CDD2603007253AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		426A6F0C2CDD2603007253AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -34,6 +40,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		42228E0A2CDEA71B007D99D9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				42228E062CDEA71B007D99D9 /* CreateAIDrawingView.swift */,
+				42228E072CDEA71B007D99D9 /* Home.swift */,
+				42228E082CDEA71B007D99D9 /* MyDrawingsView.swift */,
+				42228E092CDEA71B007D99D9 /* PreExistingDrawingsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		426A6EF72CDD2601007253AD = {
 			isa = PBXGroup;
 			children = (
@@ -53,9 +70,9 @@
 		426A6F022CDD2601007253AD /* LetsDraw */ = {
 			isa = PBXGroup;
 			children = (
+				42228E042CDEA71B007D99D9 /* ContentView.swift */,
+				42228E0A2CDEA71B007D99D9 /* View */,
 				426A6F032CDD2601007253AD /* LetsDrawApp.swift */,
-				426A6F052CDD2601007253AD /* ContentView.swift */,
-				426A6F072CDD2601007253AD /* Item.swift */,
 				426A6F092CDD2603007253AD /* Assets.xcassets */,
 				426A6F0B2CDD2603007253AD /* Preview Content */,
 			);
@@ -140,8 +157,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				426A6F062CDD2601007253AD /* ContentView.swift in Sources */,
-				426A6F082CDD2601007253AD /* Item.swift in Sources */,
+				42228E0B2CDEA71B007D99D9 /* CreateAIDrawingView.swift in Sources */,
+				42228E0D2CDEA71B007D99D9 /* PreExistingDrawingsView.swift in Sources */,
+				42228E0E2CDEA71B007D99D9 /* Home.swift in Sources */,
+				42228E0F2CDEA71B007D99D9 /* ContentView.swift in Sources */,
+				42228E102CDEA71B007D99D9 /* MyDrawingsView.swift in Sources */,
 				426A6F042CDD2601007253AD /* LetsDrawApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
